@@ -1,0 +1,15 @@
+[
+  {
+    "type": "ENTER",
+    "index": ["entities", 753, "settings"]
+  },
+  {
+    "type": "SET_KEY",
+    "index": "spawnCondition",
+    "content": "false"
+  },
+  {
+    "type": "EXIT",
+    "count": 3
+  }
+]

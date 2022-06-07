@@ -1,0 +1,26 @@
+[
+  {
+    "type": "ENTER",
+    "index": "entities"
+  },
+  {
+    "type": "FOR_IN",
+    "values": [217, 218, 219, 220, 221, 222],
+    "keyword": "__INDEX__",
+    "body": [
+      {
+        "type": "ENTER",
+        "index": ["__INDEX__", "settings"]
+      },
+      {
+        "type": "SET_KEY",
+        "index": "spawnCondition",
+        "content": "false"
+      },
+      {
+        "type": "EXIT",
+        "count": 2
+      }
+    ]
+  }
+]

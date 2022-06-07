@@ -1,0 +1,41 @@
+[
+  {
+    "type": "ENTER",
+    "index": ["entities", 488, "settings"]
+  },
+  {
+    "type": "SET_KEY",
+    "index": "blockEventCondition",
+    "content": "(party.has.Schneider2 && plot.line >= 11850 && plot.line < 12200)"
+  },
+  {
+    "type": "EXIT",
+    "count": 2
+  },
+  {
+    "type": "ENTER",
+    "index": [450, "settings"]
+  },
+  {
+    "type": "SET_KEY",
+    "index": "blockEventCondition",
+    "content": "false"
+  },
+  {
+    "type": "EXIT",
+    "count": 2
+  },
+  {
+    "type": "ENTER",
+    "index": [451, "settings"]
+  },
+  {
+    "type": "SET_KEY",
+    "index": "blockEventCondition",
+    "content": "false"
+  },
+  {
+    "type": "EXIT",
+    "count": 3
+  }
+]

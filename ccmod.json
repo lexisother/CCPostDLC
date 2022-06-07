@@ -1,0 +1,13 @@
+{
+  "id": "ccpostdlc",
+  "version": "0.0.1",
+
+  "title": "CCPostDLC",
+  "description": "Adjusts the game to continue after completing the DLC.",
+
+  "homepage": "https://github.com/lexisother/CCPostDLC",
+
+  "dependencies": {
+    "crosscode": ">=1.4.2"
+  }
+}

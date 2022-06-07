@@ -1,0 +1,11 @@
+[
+  {
+    "type": "ENTER",
+    "index": ["entities", 371, "settings"]
+  },
+  {
+    "type": "SET_KEY",
+    "index": "condition",
+    "content": "true"
+  }
+]

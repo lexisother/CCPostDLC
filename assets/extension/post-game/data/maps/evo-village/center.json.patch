@@ -1,0 +1,60 @@
+[
+  {
+    "type": "ENTER",
+    "index": ["entities", 934, "settings"]
+  },
+  {
+    "type": "SET_KEY",
+    "index": "spawnCondition",
+    "content": "plot.line >= 51500 || plot.completedPostGame"
+  },
+  {
+    "type": "EXIT",
+    "count": 2
+  },
+  {
+    "type": "ENTER",
+    "index": [937, "settings", "event"]
+  },
+  {
+    "type": "ADD_ARRAY_ELEMENT",
+    "index": 1,
+    "content": {
+      "changeType": "set",
+      "type": "CHANGE_VAR_BOOL",
+      "varName": "plot.completedPostGame",
+      "value": true
+    }
+  },
+  {
+    "type": "EXIT",
+    "count": 3
+  },
+  {
+    "type": "ADD_ARRAY_ELEMENT",
+    "content": {
+      "type": "HiddenBlock",
+      "x": 1015,
+      "y": 725,
+      "level": 1,
+      "settings": {
+        "mapId": 1477,
+        "size": {
+          "x": 48,
+          "y": 48
+        },
+        "zHeight": 100,
+        "collType": "BLOCK",
+        "shape": "RECTANGLE",
+        "name": "statueCollision",
+        "spawnCondition": "plot.completedPostGame",
+        "terrain": "NORMAL",
+        "heightShape": "NONE"
+      }
+    }
+  },
+  {
+    "type": "EXIT",
+    "count": 1
+  }
+]
