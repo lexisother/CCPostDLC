@@ -1,10 +1,10 @@
 {
-  "id": "ccpostdlc",
+  "name": "CCPostDLC",
   "version": "1.0.0",
-  "title": "CCPostDLC",
   "description": "Adjusts the game to continue after completing the DLC.",
   "homepage": "https://github.com/lexisother/CCPostDLC",
-  "dependencies": {
+  "prestart": "src/prestart.js",
+  "ccmodDependencies": {
     "crosscode": ">=1.4.0",
     "post-game": ">=1.4.0"
   }
